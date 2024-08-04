@@ -1,20 +1,20 @@
 <script setup>
 const menuitems = [
   {
-    title: "Features",
+    title: "Services",
     path: "#",
-  },
-  {
-    title: "Pricing",
-    path: "/pricing",
   },
   {
     title: "About",
     path: "/about",
   },
   {
-    title: "Contact",
-    path: "/contact",
+    title: "Pricing",
+    path: "/pricing",
+  },
+  {
+    title: "Blog",
+    path: "/blogs",
   },
 ];
 
@@ -25,9 +25,8 @@ const open = ref(false);
   <LandingContainer>
     <header class="flex flex-col lg:flex-row justify-between items-center my-5">
       <div class="flex w-full lg:w-auto items-center justify-between">
-        <a href="/" class="text-lg"
-          ><span class="font-bold text-slate-800">Nuxt</span
-          ><span class="text-slate-500">ship</span>
+        <a href="/" class="text-lg font-bold text-center tracking-wider text-amber-950 uppercase lg:text-4xl">
+          <span class="font-light">Towns</span><span class="font-semibold">meet</span>
         </a>
         <div class="block lg:hidden">
           <button @click="open = !open" class="text-gray-800">
@@ -68,16 +67,12 @@ const open = ref(false);
           </li>
         </ul>
         <div class="lg:hidden flex items-center mt-3 gap-4">
-          <LandingLink href="#" styleName="muted" block size="md"
-            >Log in</LandingLink
-          >
-          <LandingLink href="#" size="md" block>Sign up</LandingLink>
+          <UButton to="/contact" color="sky" size="xl">Let's Talk</UButton>
         </div>
       </nav>
       <div>
         <div class="hidden lg:flex items-center gap-4">
-          <a href="#">Log in</a>
-          <LandingLink href="#" size="md">Sign up</LandingLink>
+          <UButton to="/contact" color="sky" size="xl">Let's Talk</UButton>
         </div>
       </div>
     </header>

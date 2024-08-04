@@ -108,7 +108,7 @@ onMounted(() => {
         Please enter your message.
       </div>
     </div>
-    <LandingButton type="submit" size="lg" block>Send Message</LandingButton>
+    <UButton class="w-full" color="sky" size="xl" block>Send</UButton>
     <div id="result" class="mt-3 text-center"></div>
   </form>
 </template>

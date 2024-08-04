@@ -13,29 +13,14 @@
     </div>
 
     <div>
-      <h1 class="text-5xl lg:text-6xl xl:text-7xl font-bold lg:tracking-tight">
-        Marketing website done with Nuxt
+      <h1 class="text-amber-950 text-5xl lg:text-6xl xl:text-7xl font-bold lg:tracking-tight">
+        Experience the Digital Advantage.
       </h1>
       <p class="text-lg mt-4 text-slate-600 max-w-xl">
-        Nuxtship is a starter template for startups, marketing websites &
-        landing pages.<wbr /> Built with Nuxt & TailwindCSS. You can quickly
-        create any website with this starter.
+        Townsmeet empowers businesses and organisations through innovative digital solutions.
       </p>
-      <div class="mt-6 flex flex-col sm:flex-row gap-3">
-        <LandingLink
-          href="https://github.com/Gr33nW33n/nuxtship-template"
-          target="_blank"
-          rel="noopener"
-          >Get Started</LandingLink
-        >
-        <LandingLink
-          size="lg"
-          styleName="outline"
-          rel="noopener"
-          href="https://github.com/Gr33nW33n/nuxtship-template"
-          target="_blank"
-          >View Repo</LandingLink
-        >
+      <div class="mt-6">
+        <UButton to="/contact" color="sky" size="xl">Let's Talk</UButton>
       </div>
     </div>
   </main>
