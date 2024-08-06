@@ -25,14 +25,14 @@ const open = ref(false);
   <UContainer>
     <header class="flex flex-col lg:flex-row justify-between items-center my-5">
       <div class="flex w-full lg:w-auto items-center justify-between">
-        <NuxtLink to="/" class="text-lg font-bold text-center tracking-wider text-amber-950 uppercase lg:text-4xl">
+        <NuxtLink to="/" class="text-xl font-bold text-center tracking-wider text-amber-950 uppercase lg:text-4xl">
           <span class="font-light">Towns</span><span class="font-semibold">meet</span>
         </NuxtLink>
         <div class="block lg:hidden">
           <button @click="open = !open" class="text-gray-800">
             <svg
               fill="currentColor"
-              class="w-4 h-4"
+              class="w-6 h-6"
               viewBox="0 0 20 20"
               xmlns="http://www.w3.org/2000/svg"
             >
