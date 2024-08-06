@@ -22,12 +22,12 @@ const open = ref(false);
 </script>
 
 <template>
-  <LandingContainer>
+  <UContainer>
     <header class="flex flex-col lg:flex-row justify-between items-center my-5">
       <div class="flex w-full lg:w-auto items-center justify-between">
-        <a href="/" class="text-lg font-bold text-center tracking-wider text-amber-950 uppercase lg:text-4xl">
+        <NuxtLink to="/" class="text-lg font-bold text-center tracking-wider text-amber-950 uppercase lg:text-4xl">
           <span class="font-light">Towns</span><span class="font-semibold">meet</span>
-        </a>
+        </NuxtLink>
         <div class="block lg:hidden">
           <button @click="open = !open" class="text-gray-800">
             <svg
@@ -58,12 +58,12 @@ const open = ref(false);
       >
         <ul class="flex flex-col lg:flex-row lg:gap-3">
           <li v-for="item of menuitems">
-            <a
-              :href="item.path"
+            <NuxtLink
+              :to="item.path"
               class="flex lg:px-3 py-2 text-gray-600 hover:text-gray-900"
             >
               {{ item.title }}
-            </a>
+            </NuxtLink>
           </li>
         </ul>
         <div class="lg:hidden flex items-center mt-3 gap-4">
@@ -76,5 +76,5 @@ const open = ref(false);
         </div>
       </div>
     </header>
-  </LandingContainer>
+  </UContainer>
 </template>

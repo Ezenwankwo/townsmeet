@@ -1,9 +1,9 @@
 <template>
   <main class="grid lg:grid-cols-2 place-items-center pt-16 pb-8 md:pt-8">
     <div class="p-24 md:order-1 hidden md:block">
-      <img
+      <NuxtImg
         class="rounded-full transition-transform transform hover:scale-125"
-        src="~/assets/img/hero.jpg"
+        src="/hero.jpg"
         alt="Starship starts the engine"
         loading="eager"
         format="avif"

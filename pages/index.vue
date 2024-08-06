@@ -5,9 +5,9 @@ definePageMeta({
 </script>
 
 <template>
-  <LandingContainer>
+  <UContainer>
     <LandingHero></LandingHero>
     <LandingFeatures></LandingFeatures>
     <LandingCta></LandingCta>
-  </LandingContainer>
+  </UContainer>
 </template>

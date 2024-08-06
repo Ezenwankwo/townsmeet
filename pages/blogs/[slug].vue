@@ -5,7 +5,7 @@ definePageMeta({
 </script>
 
 <template>
-  <LandingContainer>
+  <UContainer>
     <ContentDoc />
-  </LandingContainer>
+  </UContainer>
 </template>

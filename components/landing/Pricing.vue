@@ -16,13 +16,6 @@ defineProps(["plan"]);
               : plan.price
           }}
         </p>
-        <!-- {
-        plan.price.original && (
-          <p class="mt-1 text-xl font-medium text-gray-400 line-through md:text-2xl">
-            {plan.price.original}
-          </p>
-        )
-      } -->
       </div>
       <ul class="grid mt-8 text-left gap-y-4">
         <li
@@ -34,13 +27,15 @@ defineProps(["plan"]);
         </li>
       </ul>
       <div class="flex mt-8">
-        <LandingLink
-          :href="plan.button.link || '#'"
+        <UButton
+          to="/contact"
+          color="sky"
+          size="xl"
           block
-          :styleName="plan.popular ? 'primary' : 'outline'"
+          :variant="plan.popular ? 'solid' : 'outline'"
         >
           {{ plan.button.text || "Get Started" }}
-        </LandingLink>
+        </UButton>
       </div>
     </div>
   </div>

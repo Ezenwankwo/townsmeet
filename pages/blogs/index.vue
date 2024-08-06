@@ -5,7 +5,7 @@ definePageMeta({
 </script>
 
 <template>
-  <LandingContainer>
+  <UContainer>
     <LandingSectionhead>
       <template v-slot:title>Blog</template>
       <template v-slot:desc
@@ -33,5 +33,5 @@ definePageMeta({
         </NuxtLink>
       </ContentList>
     </div>
-  </LandingContainer>
+  </UContainer>
 </template>

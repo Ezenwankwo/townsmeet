@@ -5,7 +5,7 @@ definePageMeta({
 </script>
 
 <template>
-  <LandingContainer>
+  <UContainer>
     <LandingSectionhead>
       <template v-slot:title>Contact</template>
       <template v-slot:desc>I am here to help.</template>
@@ -31,17 +31,17 @@ definePageMeta({
               >jakobaichmayr@gmail.com</a
             >
           </div>
-          <!-- <div class="flex items-center mt-2 space-x-2 text-gray-600">
+          <div class="flex items-center mt-2 space-x-2 text-gray-600">
             <Icon class="text-gray-400 w-4 h-4" name="uil:phone" /><a
               href="tel:+1 (234) 5678 999"
               >+1 (234) 5678 999</a
             >
-          </div> -->
+          </div>
         </div>
       </div>
       <div>
         <LandingContactform />
       </div>
     </div>
-  </LandingContainer>
+  </UContainer>
 </template>
