@@ -11,5 +11,10 @@ export default defineNuxtConfig({
   },
 
   modules: ["nuxt-icon", "@nuxt/content", "@nuxt/image", "@nuxt/ui"],
+
+  colorMode: {
+    preference: 'light'
+  },
+  
   compatibilityDate: "2024-08-03",
 });

@@ -1,6 +1,6 @@
 <template>
   <main class="grid lg:grid-cols-2 place-items-center pt-16 pb-8 md:pt-8">
-    <div class="p-24 md:order-1 hidden md:block">
+    <div class="p-6 md:p-24 md:order-1 md:block">
       <NuxtImg
         class="rounded-full transition-transform transform hover:scale-125"
         src="/hero.jpg"
