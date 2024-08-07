@@ -5,8 +5,6 @@
         class="rounded-full transition-transform transform hover:scale-125"
         src="/hero.jpg"
         alt="Starship starts the engine"
-        loading="eager"
-        format="avif"
         width="512"
         height="512"
       />

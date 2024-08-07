@@ -10,7 +10,7 @@ export default defineNuxtConfig({
     },
   },
 
-  modules: ["nuxt-icon", "@nuxt/content", "@nuxt/image", "@nuxt/ui"],
+  modules: ["nuxt-icon", "@nuxt/content", "@nuxt/image", "@nuxt/ui", ['nuxt-gtag', { id: 'G-BEW8B7QXPL' }],],
 
   colorMode: {
     preference: 'light'
