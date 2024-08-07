@@ -20,7 +20,7 @@
         Townsmeet empowers businesses and organisations through innovative digital solutions.
       </p>
       <div class="mt-6">
-        <UButton to="/contact" color="sky" size="xl">Let's Talk</UButton>
+        <UButton to="/contact" color="orange" size="xl">Let's Talk</UButton>
       </div>
     </div>
   </main>

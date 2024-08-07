@@ -2,7 +2,7 @@
 const menuitems = [
   {
     title: "Services",
-    path: "#",
+    path: "/services",
   },
   {
     title: "About",
@@ -67,12 +67,12 @@ const open = ref(false);
           </li>
         </ul>
         <div class="lg:hidden flex items-center mt-3 gap-4">
-          <UButton to="/contact" color="sky" size="xl">Let's Talk</UButton>
+          <UButton to="/contact" color="orange" size="xl">Let's Talk</UButton>
         </div>
       </nav>
       <div>
         <div class="hidden lg:flex items-center gap-4">
-          <UButton to="/contact" color="sky" size="xl">Let's Talk</UButton>
+          <UButton to="/contact" color="orange" size="xl">Let's Talk</UButton>
         </div>
       </div>
     </header>
