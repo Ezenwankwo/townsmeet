@@ -44,7 +44,7 @@ const features = [
     </p>
   </div>
 
-  <div class="grid grid-cols-1 gap-8 mt-16 md:grid-cols-2 lg:grid-cols-3">
+  <div class="grid grid-cols-1 gap-8 mt-16 md:grid-cols-2">
     <div
       v-for="item of features"
       class="bg-slate-100 rounded-lg p-8 flex flex-col justify-center"

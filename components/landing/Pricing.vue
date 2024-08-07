@@ -9,7 +9,7 @@ defineProps(["plan"]);
     >
       <div class="text-center">
         <h4 class="text-lg font-medium text-gray-400">{{ plan.name }}</h4>
-        <p class="mt-3 text-4xl font-bold text-black md:text-4xl">
+        <p class="mt-3 text-4xl font-bold text-amber-950 md:text-4xl">
           {{
             plan.price && typeof plan.price === "object"
               ? plan.price.monthly
@@ -29,7 +29,7 @@ defineProps(["plan"]);
       <div class="flex mt-8">
         <UButton
           to="/contact"
-          color="sky"
+          color="orange"
           size="xl"
           block
           :variant="plan.popular ? 'solid' : 'outline'"
