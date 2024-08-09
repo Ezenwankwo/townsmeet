@@ -11,17 +11,33 @@ const message = ref("");
     class="flex flex-col gap-y-5 max-w-md mx-auto"
   >
     <div class="form-control">
-     <UInput v-model="name" placeholder="Your name..." size="xl" variant="outline" />
+      <UInput
+        v-model="name"
+        placeholder="Your name..."
+        size="xl"
+        variant="outline"
+      />
     </div>
     <div class="form-control">
-     <UInput v-model="email" placeholder="Your email..." size="xl" variant="outline" type="email" />
+      <UInput
+        v-model="email"
+        placeholder="Your email..."
+        size="xl"
+        type="email"
+		variant="outline"
+      />
     </div>
     <div class="form-control">
-      <UTextarea v-model="message" placeholder="Your message..." size="xl" rows="5" variant="outline" />
+      <UTextarea
+        v-model="message"
+        placeholder="Your message..."
+        size="xl"
+        rows="5"
+        variant="outline"
+      />
     </div>
-    <div class="flex justify-end">
-      <UButton class="w-full" color="orange" size="xl" block>Send</UButton>
+    <div class="flex">
+      <UButton color="orange" size="xl">Send</UButton>
     </div>
   </form>
 </template>
-

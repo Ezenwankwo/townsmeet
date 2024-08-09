@@ -1,12 +1,12 @@
 ---
-title: 'A Year in Review: How Seasonal Changes Affect Our Farming Techniques'
+title: "A Year in Review: How Seasonal Changes Affect Our Farming Techniques"
 description: An overview of the adaptations and changes made on the farm throughout the year to align with seasonal variations.
 image:
   src: https://images.unsplash.com/photo-1574514366389-3c4fef242ca9?q=80&w=993&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
   alt: Image of a road in a forest with green and orange trees on either side.
 categories:
-- seasonal-guides
-- behind-the-scenes
+  - seasonal-guides
+  - behind-the-scenes
 authors:
   - name: Estéban Soubiran
     avatar: https://esteban-soubiran.site/esteban.webp
@@ -23,7 +23,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor i
 
 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
-**Bold Statement**: Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+**Bold Statement**:
+Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 
 ## Sed Do Eiusmod Tempor Incididunt
 
@@ -43,7 +44,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 ## Quis Nostrud Exercitation Ullamco Laboris
 
-**Essential Tips**: Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
+**Essential Tips**:
+Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
 
 - Lorem ipsum dolor sit amet, consectetur adipiscing.
 - Sed do eiusmod tempor incididunt ut labore et dolore.

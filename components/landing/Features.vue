@@ -20,6 +20,12 @@ const features = [
     icon: "bx:bxs-data",
   },
   {
+    title: "Data Analytics",
+    description:
+      "We provide data-driven solutions to help businesses analyze and interpret data to make informed business decisions.",
+    icon: "bx:bxs-bar-chart-alt-2",
+  },
+  {
     title: "IT Support",
     description:
       "We work closely with our clients to provide technical support for their IT systems, ensuring a smooth and efficient operation of your business.",
@@ -35,32 +41,35 @@ const features = [
 </script>
 
 <template>
-  <div v-if="route.path === '/'" class="mt-16 md:mt-0">
-    <h2 class="text-amber-950 text-4xl lg:text-5xl font-bold lg:tracking-tight">
-      All your digital needs in one place
-    </h2>
-    <p class="text-lg mt-4 text-slate-600">
-      We provide a range of services to help our clients achieve their goals.
-    </p>
-  </div>
-
-  <div class="grid grid-cols-1 gap-8 mt-16 md:grid-cols-2">
-    <div
-      v-for="item of features"
-      class="bg-slate-100 rounded-lg p-8 flex flex-col justify-center"
-    >
-      <div class="flex items-center mb-4">
-        <div
-          class="bg-amber-950 rounded-full p-2 w-10 h-10 flex items-center justify-center mr-4"
-        >
-          <Icon class="text-white" :name="item.icon" />
-        </div>
-        <h3 class="text-lg font-semibold text-amber-950">{{ item.title }}</h3>
-      </div>
-      <p class="text-slate-500 leading-relaxed">
-        {{ item.description }}
+  <UContainer>
+    <div v-if="route.path === '/'" class="mt-16 md:mt-0">
+      <h2
+        class="text-amber-950 text-4xl lg:text-5xl font-bold lg:tracking-tight"
+      >
+        All your digital needs in one place
+      </h2>
+      <p class="text-lg mt-4 text-slate-600">
+        We provide a range of services to help our clients achieve their goals.
       </p>
     </div>
-  </div>
-</template>
 
+    <div class="grid grid-cols-1 gap-8 mt-16 md:grid-cols-3">
+      <div
+        v-for="item of features"
+        class="bg-slate-100 rounded-lg p-8 flex flex-col justify-center"
+      >
+        <div class="flex items-center mb-4">
+          <div
+            class="bg-amber-950 rounded-full p-2 w-10 h-10 flex items-center justify-center mr-4"
+          >
+            <Icon class="text-white" :name="item.icon" />
+          </div>
+          <h3 class="text-lg font-semibold text-amber-950">{{ item.title }}</h3>
+        </div>
+        <p class="text-slate-500 leading-relaxed">
+          {{ item.description }}
+        </p>
+      </div>
+    </div>
+  </UContainer>
+</template>

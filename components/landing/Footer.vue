@@ -21,10 +21,10 @@
             Explore
           </h4>
           <ul class="text-slate-600 space-y-4 mt-4">
-            <li>Services</li>
-            <li>About</li>
-            <li>Blog</li>
-            <li>Contact</li>
+            <li><NuxtLink to="/services">Services</NuxtLink></li>
+            <li><NuxtLink to="/about">About</NuxtLink></li>
+            <li><NuxtLink to="/blogs">Blog</NuxtLink></li>
+            <li><NuxtLink to="/contact">Contact</NuxtLink></li>
           </ul>
         </div>
         <div class="md:w-1/4 flex flex-col justify-center">
@@ -34,7 +34,7 @@
           <ul class="text-slate-600 space-y-4 mt-4 item">
             <li class="flex items-center">
               <Icon name="material-symbols:mail-outline" class="mr-2" />
-              <span>vacantsoon@gmail.com</span>
+              <span>info@townsmeet.com</span>
             </li>
             <li class="flex items-center">
               <Icon name="material-symbols:call" class="mr-2" /> 
