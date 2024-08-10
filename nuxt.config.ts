@@ -10,7 +10,26 @@ export default defineNuxtConfig({
     },
   },
 
-  modules: ["nuxt-icon", "@nuxt/content", "@nuxt/image", "@nuxt/ui", ['nuxt-gtag', { id: 'G-BEW8B7QXPL' }],],
+  modules: [
+    "nuxt-icon",
+    "@nuxt/content",
+    "@nuxt/image",
+    "@nuxt/ui",
+    ['nuxt-gtag', { id: process.env.GTAG_ID }],
+    ['nuxt-mail', {
+      message: {
+        to: process.env.MAIL_TO,
+      },
+      smtp: {
+        host: "smtp-relay.brevo.com",
+        port: 587,
+        auth: {
+          user: process.env.BREVO_USER,
+          pass: process.env.BREVO_PASS,
+        },
+      },
+    }],
+  ],
 
   colorMode: {
     preference: 'light'
