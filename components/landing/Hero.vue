@@ -4,7 +4,7 @@
       <div class="p-6 md:p-24 order-1 md:block">
         <NuxtImg
           class="rounded-full transition-transform transform hover:scale-125"
-          src="/hero.jpg"
+          src="/hero1.webp"
           alt="Starship starts the engine"
           width="512"
           height="512"

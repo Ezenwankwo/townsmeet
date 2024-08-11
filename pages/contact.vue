@@ -3,9 +3,19 @@ definePageMeta({
   layout: "landing",
 });
 
+useHead({
+  title: "Townsmeet | Contact us",
+  meta: [
+    {
+      name: "description",
+      content: "We are here to help.",
+    },
+  ],
+})
+
 useServerSeoMeta({
-  title: "Contact us",
-  ogTitle: "Contact us",
+  title: "Townsmeet | Contact us",
+  ogTitle: "Townsmeet | Contact us",
   description: "We are here to help.",
   ogDescription: "We are here to help.",
 });

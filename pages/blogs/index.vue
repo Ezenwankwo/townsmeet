@@ -3,9 +3,19 @@ definePageMeta({
   layout: "landing",
 });
 
+useHead({
+  title: "Townsmeet | Blog",
+  meta: [
+    {
+      name: "description",
+      content: "Learn how digital technology can transform your business.",
+    },
+  ],
+});
+
 useServerSeoMeta({
-  title: "Blog",
-  ogTitle: "Blog",
+  title: "Townsmeet | Blog",
+  ogTitle: "Townsmeet | Blog",
   description: "Learn how digital technology can transform your business.",
   ogDescription: "Learn how digital technology can transform your business.",
 });
@@ -20,7 +30,7 @@ useServerSeoMeta({
       >
     </LandingSectionhead>
 
-    <div class="grid md:grid-cols-2 gap-8 mx-auto mt-12">
+    <div class="grid md:grid-cols-2 gap-8 mt-12">
       <ContentList path="/blogs" v-slot="{ list }">
         <header
           v-for="blog in list"

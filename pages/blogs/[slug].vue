@@ -6,9 +6,19 @@ definePageMeta({
 const route = useRoute();
 const slug = route.params.slug.replaceAll("-", " ");
 
+useHead({
+  title: "Townsmeet" + " | " + slug,
+  meta: [
+    {
+      name: "description",
+      content: slug,
+    },
+  ],
+});
+
 useServerSeoMeta({
-  title: "Blog",
-  ogTitle: "Blog",
+  title: "Townsmeet | Blog",
+  ogTitle: "Townsmeet | Blog",
   description: slug,
   ogDescription: slug,
 });

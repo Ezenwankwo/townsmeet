@@ -56,7 +56,7 @@ const features = [
     <div class="grid grid-cols-1 gap-8 mt-16 md:grid-cols-3">
       <div
         v-for="item of features"
-        class="bg-slate-100 rounded-lg p-8 flex flex-col justify-center"
+        class="bg-slate-100 rounded-lg p-8 flex flex-col justify-center border hover:border-amber-950"
       >
         <div class="flex items-center mb-4">
           <div

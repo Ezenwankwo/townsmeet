@@ -3,9 +3,19 @@ definePageMeta({
     layout: "landing",
 });
 
+useHead({
+    title: "Townsmeet | Services",
+    meta: [
+        {
+            name: "description",
+            content: "All your digital needs in one place.",
+        },
+    ],
+});
+
 useServerSeoMeta({
-    title: "Services",
-    ogTitle: "Services",
+    title: "Townsmeet | Services",
+    ogTitle: "Townsmeet | Services",
     description: "All your digital needs in one place.",
     ogDescription: "All your digital needs in one place.",
 });
