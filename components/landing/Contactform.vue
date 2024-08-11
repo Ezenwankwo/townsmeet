@@ -65,7 +65,7 @@ const resetForm = () => {
         v-model="formData.message"
         placeholder="Your message..."
         size="xl"
-        rows="5"
+        rows=5
         variant="outline"
       />
     </div>

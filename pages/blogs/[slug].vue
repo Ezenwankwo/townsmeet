@@ -13,7 +13,7 @@ definePageMeta({
           <span>{{ doc.publishedAt }}</span>
         </div>
         
-        <h1 class="text-4xl lg:text-5xl text-amber-950 font-bold mt-4 leading-tight">
+        <h1 class="text-3xl lg:text-4xl text-amber-950 font-bold mt-4 leading-tight">
           {{ doc.title }}
         </h1>
 
