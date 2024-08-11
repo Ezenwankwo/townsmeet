@@ -2,6 +2,13 @@
 definePageMeta({
   layout: "landing",
 });
+
+useServerSeoMeta({
+  title: "Blog",
+  ogTitle: "Blog",
+  description: "Learn how digital technology can transform your business.",
+  ogDescription: "Learn how digital technology can transform your business.",
+});
 </script>
 
 <template>

@@ -2,6 +2,13 @@
 definePageMeta({
     layout: "landing",
 });
+
+useServerSeoMeta({
+    title: "Services",
+    ogTitle: "Services",
+    description: "All your digital needs in one place.",
+    ogDescription: "All your digital needs in one place.",
+});
 </script>
 
 <template>

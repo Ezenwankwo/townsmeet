@@ -2,6 +2,13 @@
 definePageMeta({
   layout: "landing",
 });
+
+useServerSeoMeta({
+  title: "Contact us",
+  ogTitle: "Contact us",
+  description: "We are here to help.",
+  ogDescription: "We are here to help.",
+});
 </script>
 
 <template>

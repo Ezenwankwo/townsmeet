@@ -3,6 +3,13 @@ definePageMeta({
   layout: "landing",
 });
 
+useServerSeoMeta({
+  title: "About",
+  ogTitle: "About",
+  description: "We are a passionate and experienced team.",
+  ogDescription: "We are a passionate and experienced team.",
+});
+
 const team = [
   {
     name: "Augustus Ezenwankwo",
@@ -36,7 +43,7 @@ const team = [
   <UContainer>
     <LandingSectionhead>
       <template v-slot:title>About</template>
-      <template v-slot:desc>We are a small passionate team.</template>
+      <template v-slot:desc>We are a passionate and experienced team.</template>
     </LandingSectionhead>
 
     <div class="flex flex-col gap-6 mx-auto mt-12">
