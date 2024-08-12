@@ -18,6 +18,7 @@ useServerSeoMeta({
   ogTitle: "Townsmeet | Blog",
   description: "Learn how digital technology can transform your business.",
   ogDescription: "Learn how digital technology can transform your business.",
+  ogImage: "https://townsmeet.com/logo.jpg",
 });
 </script>
 

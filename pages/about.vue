@@ -18,6 +18,7 @@ useServerSeoMeta({
   ogTitle: "Townsmeet | About",
   description: "We are a passionate and experienced team.",
   ogDescription: "We are a passionate and experienced team.",
+  ogImage: "https://townsmeet.com/logo.jpg",
 });
 
 const team = [

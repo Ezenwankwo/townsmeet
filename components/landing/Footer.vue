@@ -5,10 +5,17 @@
         <div class="md:w-2/4">
           <NuxtLink
             to="/"
-            class="text-xl font-bold text-center tracking-wider text-amber-950 uppercase lg:text-4xl"
+            class="flex items-center text-lg font-bold tracking-wider text-amber-950 uppercase lg:text-2xl"
           >
+            <NuxtImg
+              src="/logo.jpg"
+              width="50"
+              height="50"
+              alt="logo"
+              class="object-cover"
+            />
             <span class="font-light">Towns</span
-            ><span class="font-semibold">meet</span>
+              ><span class="font-semibold">meet</span>
           </NuxtLink>
           <p class="text-slate-600 my-4 md:w-3/5">
             Townsmeet is a digital transformation company. We provide innovative

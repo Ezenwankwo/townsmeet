@@ -18,6 +18,7 @@ useServerSeoMeta({
   ogTitle: "Townsmeet | Contact us",
   description: "We are here to help.",
   ogDescription: "We are here to help.",
+  ogImage: "https://townsmeet.com/logo.jpg",
 });
 </script>
 

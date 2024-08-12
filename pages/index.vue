@@ -18,7 +18,7 @@ useServerSeoMeta({
   ogTitle: "Townsmeet | Experience the Digital Advantage",
   description: "Townsmeet is a digital transformation company. We provide innovative digital solutions to businesses and organisations.",
   ogDescription: "Townsmeet is a digital transformation company. We provide innovative digital solutions to businesses and organisations.",
-  ogImage: "https://townsmeet.com/og.png",
+  ogImage: "https://townsmeet.com/logo.jpg",
   twitterCard: "summary_large_image",
   twitterImage: "https://townsmeet.com/og.png",
   twitterTitle: "Townsmeet | Experience the Digital Advantage",

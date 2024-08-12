@@ -27,15 +27,22 @@ const open = ref(false);
   >
     <UContainer>
       <header
-        class="flex flex-col lg:flex-row justify-between items-center my-5"
+        class="flex flex-col lg:flex-row justify-between items-center"
       >
-        <div class="flex w-full lg:w-auto items-center justify-between">
+        <div class="flex w-full lg:w-auto items-center justify-between my-2">
           <NuxtLink
             to="/"
-            class="text-xl font-bold text-center tracking-wider text-amber-950 uppercase lg:text-4xl"
+            class="flex items-center text-lg font-bold tracking-wider text-amber-950 uppercase lg:text-2xl"
           >
+            <NuxtImg
+              src="/logo.jpg"
+              width="50"
+              height="50"
+              alt="logo"
+              class="object-cover"
+            />
             <span class="font-light">Towns</span
-            ><span class="font-semibold">meet</span>
+              ><span class="font-semibold">meet</span>
           </NuxtLink>
           <div class="block lg:hidden">
             <button @click="open = !open" class="text-gray-800">

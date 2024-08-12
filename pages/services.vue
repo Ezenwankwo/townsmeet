@@ -18,6 +18,7 @@ useServerSeoMeta({
     ogTitle: "Townsmeet | Services",
     description: "All your digital needs in one place.",
     ogDescription: "All your digital needs in one place.",
+    ogImage: "https://townsmeet.com/logo.jpg",
 });
 </script>
 
