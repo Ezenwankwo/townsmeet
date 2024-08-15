@@ -32,7 +32,7 @@ useServerSeoMeta({
     </LandingSectionhead>
 
     <div class="grid md:grid-cols-2 gap-8 mt-12">
-      <ContentList path="/blogs" v-slot="{ list }">
+      <ContentList path="/blog" v-slot="{ list }">
         <header
           v-for="blog in list"
           :key="blog._path"

@@ -32,7 +32,7 @@
           <ul class="text-slate-600 space-y-4 mt-4">
             <li><NuxtLink to="/services">Services</NuxtLink></li>
             <li><NuxtLink to="/about">About</NuxtLink></li>
-            <li><NuxtLink to="/blogs">Blog</NuxtLink></li>
+            <li><NuxtLink to="/blog">Blog</NuxtLink></li>
             <li><NuxtLink to="/contact">Contact</NuxtLink></li>
           </ul>
         </div>

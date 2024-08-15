@@ -13,7 +13,7 @@
       </div>
 
       <div class="grid grid-cols-1 gap-8 mt-16 md:grid-cols-2">
-        <ContentList path="/blogs" v-slot="{ list }">
+        <ContentList path="/blog" v-slot="{ list }">
           <header
             v-for="blog in list.slice(0, 2)"
             :key="blog._path"
