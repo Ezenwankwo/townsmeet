@@ -28,20 +28,21 @@ useServerSeoMeta({
   <UContainer>
     <ContentDoc v-slot="{ doc }">
       <article class="mt-16 w-full md:w-[80%] lg:w-[60%] mx-auto">
-        
         <div class="text-sm text-slate-600">
           <span>{{ doc.publishedAt }}</span>
         </div>
-        
-        <h1 class="text-3xl lg:text-4xl text-amber-950 font-bold mt-4 leading-tight">
+
+        <h1
+          class="text-3xl lg:text-4xl text-amber-950 font-bold mt-4 leading-tight"
+        >
           {{ doc.title }}
         </h1>
 
-		<img
-		  class="w-full h-96 mt-4 rounded-lg object-cover"
-		  :src="doc.image.src"
-		  :alt="doc.title"
-		/>
+        <img
+          class="w-full h-96 mt-4 rounded-lg object-cover"
+          :src="doc.image.src"
+          :alt="doc.title"
+        />
 
         <!-- Content Section -->
         <div class="text-slate-700 content mt-8">
@@ -55,7 +56,7 @@ useServerSeoMeta({
 <style>
 /* General Styles */
 .content {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   line-height: 1.75;
   color: #334155;
 }
@@ -70,27 +71,24 @@ useServerSeoMeta({
 .content h4:not(:last-child),
 .content pre:not(:last-child),
 .content table:not(:last-child) {
-  @apply mb-6;
+  @apply mb-3;
 }
 
 /* Typography */
 .content h1 {
-  @apply text-4xl font-bold mt-8;
+  @apply text-3xl font-bold mt-8;
 }
 .content h2 {
-  @apply text-3xl font-bold mt-6;
+  @apply text-2xl font-bold mt-6;
 }
 .content h3 {
-  @apply text-2xl font-semibold mt-4;
-}
-.content h4 {
   @apply text-xl font-semibold mt-4;
 }
-.content h5 {
-  @apply text-lg font-medium mt-2;
+.content h4 {
+  @apply text-lg font-semibold mt-4;
 }
 .content p {
-  @apply text-lg leading-relaxed;
+  @apply text-base leading-relaxed;
 }
 
 /* Blockquote Styling */
@@ -113,5 +111,13 @@ useServerSeoMeta({
 }
 .content th {
   @apply bg-slate-100 font-semibold;
+}
+
+/* List Styling */
+.content ol {
+  @apply list-decimal pl-4;
+}
+.content ul {
+  @apply list-disc pl-4;
 }
 </style>

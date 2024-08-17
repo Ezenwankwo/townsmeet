@@ -25,28 +25,33 @@ const team = [
   {
     name: "Augustus Ezenwankwo",
     title: "Product Engineer",
-    avatar: "/augustus.jpg",
+    avatar: "/team/augustus.jpg",
   },
   {
     name: "Kaselchumfa David",
     title: "Data/Business Analyst",
-    avatar: "/kasel.jpg",
+    avatar: "/team/kasel.jpg",
   },
   {
     name: "Ifeoma Chukwu",
     title: "Customer Relations",
-    avatar: "/ifeoma.jpeg",
+    avatar: "/team/ifeoma.jpeg",
   },
   {
     name: "Samuel Odey",
     title: "IT Support Specialist",
-    avatar: "/samuel.jpg",
+    avatar: "/team/samuel.jpg",
   },
   {
     name: "Daniel Ugah",
     title: "Software Engineer",
-    avatar: "/daniel.jpeg",
+    avatar: "/team/daniel.jpeg",
   },
+  {
+    name: "Jonas John",
+    title: "QA Engineer",
+    avatar: "/team/jonas.jpg",
+  }
 ];
 </script>
 

@@ -53,7 +53,7 @@ useServerSeoMeta({
                 }}</span></NuxtLink
               >
             </h3>
-            <div class="text-stone-500 text-sm line-clamp-2">
+            <div class="text-stone-500 text-sm line-clamp-3">
               <p class="mb-2">{{ blog.description }}</p>
             </div>
           </div>
