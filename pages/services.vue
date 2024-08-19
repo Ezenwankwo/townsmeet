@@ -4,21 +4,13 @@ definePageMeta({
 });
 
 useHead({
-    title: "Townsmeet | Services",
+    title: "Services",
     meta: [
         {
             name: "description",
             content: "All your digital needs in one place.",
         },
     ],
-});
-
-useServerSeoMeta({
-    title: "Townsmeet | Services",
-    ogTitle: "Townsmeet | Services",
-    description: "All your digital needs in one place.",
-    ogDescription: "All your digital needs in one place.",
-    ogImage: "https://townsmeet.com/logo.jpg",
 });
 </script>
 

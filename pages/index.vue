@@ -12,25 +12,6 @@ useHead({
     },
   ],
 })
-
-useServerSeoMeta({
-  title: "Townsmeet | Experience the Digital Advantage",
-  ogTitle: "Townsmeet | Experience the Digital Advantage",
-  description: "Townsmeet is a digital transformation company. We provide innovative digital solutions to businesses and organisations.",
-  ogDescription: "Townsmeet is a digital transformation company. We provide innovative digital solutions to businesses and organisations.",
-  ogImage: "https://townsmeet.com/logo.jpg",
-  twitterCard: "summary_large_image",
-  twitterImage: "https://townsmeet.com/og.png",
-  twitterTitle: "Townsmeet | Experience the Digital Advantage",
-  twitterDescription: "Townsmeet is a digital transformation company. We provide innovative digital solutions to businesses and organisations.",
-  twitterUrl: "https://townsmeet.com",
-  ogUrl: "https://townsmeet.com",
-  ogSiteName: "Townsmeet",
-  ogType: "website",
-  ogLocale: "en_US",
-  ogImageAlt: "Townsmeet",
-  ogPublisher: "Townsmeet Ltd.",
-})
 </script>
 
 <template>

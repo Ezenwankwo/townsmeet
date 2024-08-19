@@ -4,21 +4,13 @@ definePageMeta({
 });
 
 useHead({
-  title: "Townsmeet | About",
+  title: "About",
   meta: [
     {
       name: "description",
       content: "We are a passionate and experienced team.",
     },
   ],
-});
-
-useServerSeoMeta({
-  title: "Townsmeet | About",
-  ogTitle: "Townsmeet | About",
-  description: "We are a passionate and experienced team.",
-  ogDescription: "We are a passionate and experienced team.",
-  ogImage: "https://townsmeet.com/logo.jpg",
 });
 
 const team = [

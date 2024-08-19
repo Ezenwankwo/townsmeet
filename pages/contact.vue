@@ -4,7 +4,7 @@ definePageMeta({
 });
 
 useHead({
-  title: "Townsmeet | Contact us",
+  title: "Contact us",
   meta: [
     {
       name: "description",
@@ -12,14 +12,6 @@ useHead({
     },
   ],
 })
-
-useServerSeoMeta({
-  title: "Townsmeet | Contact us",
-  ogTitle: "Townsmeet | Contact us",
-  description: "We are here to help.",
-  ogDescription: "We are here to help.",
-  ogImage: "https://townsmeet.com/logo.jpg",
-});
 </script>
 
 <template>

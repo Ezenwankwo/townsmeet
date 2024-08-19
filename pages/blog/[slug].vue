@@ -2,26 +2,6 @@
 definePageMeta({
   layout: "landing",
 });
-
-const route = useRoute();
-const slug = route.params.slug.replaceAll("-", " ");
-
-useHead({
-  title: "Townsmeet" + " | " + slug,
-  meta: [
-    {
-      name: "description",
-      content: slug,
-    },
-  ],
-});
-
-useServerSeoMeta({
-  title: "Townsmeet | Blog",
-  ogTitle: "Townsmeet | Blog",
-  description: slug,
-  ogDescription: slug,
-});
 </script>
 
 <template>
