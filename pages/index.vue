@@ -4,7 +4,7 @@ definePageMeta({
 });
 
 useHead({
-  title: "Townsmeet | Experience the Digital Advantage",
+  title: "Experience the Digital Advantage",
   meta: [
     {
       name: "description",
