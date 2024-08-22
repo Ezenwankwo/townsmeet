@@ -37,7 +37,7 @@ export default defineNuxtConfig({
   },
 
   site: {
-    url: 'https://townsmeet.com',
+    url: 'https://www.townsmeet.com',
     name: 'Townsmeet',
     description: 'Townsmeet is a digital transformation company. We provide innovative digital solutions to businesses and organisations.',
     defaultLocale: 'en', // not needed if you have @nuxtjs/i18n installed
@@ -45,6 +45,13 @@ export default defineNuxtConfig({
 
   seo: {
     redirectToCanonicalSiteUrl: true
+  },
+
+  nitro: {
+    prerender: {
+      routes: ['/'],
+      crawlLinks: true
+    },
   },
   
   compatibilityDate: "2024-08-03",

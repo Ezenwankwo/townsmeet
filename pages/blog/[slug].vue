@@ -2,6 +2,11 @@
 definePageMeta({
   layout: "landing",
 });
+
+defineOgImageComponent('NuxtSeo', {
+  theme: "#F97316",
+  siteLogo: "/logo.jpg",
+})
 </script>
 
 <template>

@@ -8,13 +8,19 @@ publishedAt: 19 Oct, 2023
 ---
 
 ### Overview
-Google Search Console (GSC) is a free tool offered by Google that provides valuable insights into your website's performance on the search engine. If you're not already using it, you're missing out on a goldmine of data that can significantly impact your online success. Let's explore why every business should be leveraging GSC.
+Google Search Console (GSC) is a free tool offered by Google that provides valuable insights into your website's performance on the search engine. 
+
+If you're not already using it, you're missing out on a goldmine of data that can significantly impact your online success. Let's explore why every business should be leveraging GSC.
 
 ### Google Indexing
-When you deploy your website on the internet, it's important to ensure that your content is indexed by Google. Google indexing is basically how you ensure your website is present in search results. Google is a search engine, and when people search for information on the internet, it is only contents that are indexed by Google that are shown. If you website content is not indexed, it will not be found by Google, only people who have your website address will be able to find it.
+When you deploy your website on the internet, it's important to ensure that your content is indexed by Google. Google indexing is basically how you ensure your website is present in search results. 
+
+Google is a search engine, and when people search for information on the internet, it is only contents that are indexed by Google that are shown. If you website content is not indexed, it will not be found by Google, only people who have your website address will be able to find it.
 
 ### Search Performance
-It is not enough to have your business website indexed by Google Search. You have to ensure when your customers search for goods and services related to your business, your content shows up first, or atleast is amogst the top performing search results. If your website not ranked highly in search results, your potential customers will be talking to your competitors instead of your business. The strategies your employ to ensure your website ranks high in search results is what is referred to as Search Engine Optimization. This will be discussed in a later post.
+It is not enough to have your business website indexed by Google Search. You have to ensure when your customers search for goods and services related to your business, your content shows up first, or atleast is amogst the top performing search results. 
+
+If your website not ranked highly in search results, your potential customers will be talking to your competitors instead of your business. The strategies your employ to ensure your website ranks high in search results is what is referred to as Search Engine Optimization. This will be discussed in a later post.
 
 ### Google Search Console
 Having understood how your content shows up in search results and why optimising your search ranking is important, let's dive into Google Search Console. Google provides this free tool for businesses to track and analyze their website performance on the search engine. Below are some of the search performance insights we can gain from Google Search Console.

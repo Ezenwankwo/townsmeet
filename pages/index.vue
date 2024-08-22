@@ -1,7 +1,14 @@
 <script setup>
+import { theme } from '#tailwind-config';
+
 definePageMeta({
   layout: "landing",
 });
+
+defineOgImageComponent('NuxtSeo', {
+  theme: "#F97316",
+  siteLogo: "/logo.jpg",
+})
 
 useHead({
   title: "Experience the Digital Advantage",

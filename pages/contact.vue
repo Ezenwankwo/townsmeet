@@ -3,6 +3,11 @@ definePageMeta({
   layout: "landing",
 });
 
+defineOgImageComponent('NuxtSeo', {
+  theme: "#F97316",
+  siteLogo: "/logo.jpg",
+})
+
 useHead({
   title: "Contact us",
   meta: [

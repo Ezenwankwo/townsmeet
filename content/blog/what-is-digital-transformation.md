@@ -1,6 +1,6 @@
 ---
-title: "What is the Digital Advantage"
-description: An overview of the adaptations and changes made on the farm throughout the year to align with seasonal variations.
+title: "What is Digital Transformation?"
+description: Digital transformation is the process of using digital technologies to change the way businesses and organisations operate. This article explores the essentials and benefits of digital transformation.
 image:
   src: /blog/benefit-of-digital-transformation.jpg
   alt: Digital transfomation.
