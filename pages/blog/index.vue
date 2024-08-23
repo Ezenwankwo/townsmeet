@@ -43,14 +43,14 @@ useHead({
             />
           </div>
           <div class="md:col-span-3">
-            <h3 class="text-lg font-semibold">
+            <h3 class="text-xl font-semibold">
               <NuxtLink :to="blog._path">
                 <span class="line-clamp-3 text-amber-950">{{
                   blog.title
                 }}</span></NuxtLink
               >
             </h3>
-            <div class="text-stone-500 text-sm line-clamp-3">
+            <div class="text-stone-500 text-base line-clamp-3">
               <p class="mb-2">{{ blog.description }}</p>
             </div>
           </div>

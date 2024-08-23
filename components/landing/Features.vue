@@ -10,13 +10,13 @@ const features = [
   {
     title: "Technology Adoption",
     description:
-      "Digital tools adoption, selecting and implementing the right technology solutions, ensuring seamless integration with existing systems, and optimizing their use for maximum impact.",
+      "Digital tools adoption, selecting and implementing the right technology solutions, ensuring seamless integration with existing systems.",
     icon: "bx:bxs-window-alt",
   },
   {
     title: "Software Development",
     description:
-      "We develop custom software solutions that meet your business needs. Our team of developers, designers, and product managers work together to deliver high-quality products.",
+      "Our team of developers, designers, and product managers work together to deliver high-quality custom software solutions.",
     icon: "bx:bxs-data",
   },
   {
@@ -28,13 +28,13 @@ const features = [
   {
     title: "IT Support",
     description:
-      "We work closely with our clients to provide technical support for their IT systems, ensuring a smooth and efficient operation of your business.",
+      "We work closely with our clients to provide technical support for their IT systems, ensuring a smooth and efficient operations.",
     icon: "bx:bxs-bot",
   },
   {
     title: "Training",
     description:
-      "We offer comprehensive training programs to help our clients grow and improve their digital capabilities.",
+      "We offer training programs to help our clients and their employees grow and improve their digital capabilities.",
     icon: "bx:bxs-graduation",
   },
 ];

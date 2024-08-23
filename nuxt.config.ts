@@ -39,7 +39,7 @@ export default defineNuxtConfig({
   site: {
     url: 'https://www.townsmeet.com',
     name: 'Townsmeet',
-    description: 'Townsmeet is a digital transformation company. We provide innovative digital solutions to businesses and organisations.',
+    description: 'Townsmeet is a digital transformation company. We provide innovative digital solutions to businesses in a variety of industries in Nigeria and across Africa.',
     defaultLocale: 'en', // not needed if you have @nuxtjs/i18n installed
   },
 

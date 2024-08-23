@@ -1,24 +1,26 @@
 <script setup>
-import { theme } from '#tailwind-config';
+import { theme } from "#tailwind-config";
 
 definePageMeta({
   layout: "landing",
 });
 
-defineOgImageComponent('NuxtSeo', {
+defineOgImageComponent("NuxtSeo", {
   theme: "#F97316",
   siteLogo: "/logo.jpg",
-})
+});
 
 useHead({
   title: "Experience the Digital Advantage",
   meta: [
     {
       name: "description",
-      content: "Townsmeet is a digital transformation company. We provide innovative digital solutions to businesses and organisations.",
+      content:
+        `Townsmeet is a digital transformation company. We provide innovative digital solutions to
+        businesses in a variety of industries in Nigeria and across Africa.`,
     },
   ],
-})
+});
 </script>
 
 <template>
