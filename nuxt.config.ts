@@ -47,12 +47,12 @@ export default defineNuxtConfig({
     redirectToCanonicalSiteUrl: true
   },
 
-  nitro: {
-    prerender: {
-      routes: ['/'],
-      crawlLinks: true
-    },
-  },
+  // nitro: {
+  //   prerender: {
+  //     routes: ['/'],
+  //     crawlLinks: true
+  //   },
+  // },
   
   compatibilityDate: "2024-08-03",
 });
