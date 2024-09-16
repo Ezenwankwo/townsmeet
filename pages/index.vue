@@ -1,6 +1,4 @@
 <script setup>
-import { theme } from "#tailwind-config";
-
 definePageMeta({
   layout: "landing",
 });
