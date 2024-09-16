@@ -47,10 +47,6 @@ export default defineNuxtConfig({
     redirectToCanonicalSiteUrl: true
   },
 
-  robots: {
-    enabled: false
-  },
-
   // nitro: {
   //   prerender: {
   //     routes: ['/'],
