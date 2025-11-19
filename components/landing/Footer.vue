@@ -53,7 +53,7 @@
             </li>
             <li class="flex items-center">
               <Icon name="line-md:map-marker-alt" class="mr-2" />
-              <span>FCT, Abuja Nigeria</span>
+              <span>13 Liberty Street, Benin City, Nigeria</span>
             </li>
           </ul>
         </div>
