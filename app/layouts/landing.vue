@@ -2,5 +2,6 @@
   <LandingNavbar></LandingNavbar>
   <slot></slot>
   <LandingFooter></LandingFooter>
-  <UNotifications />
+  <UToaster />
 </template>
+

@@ -36,5 +36,14 @@
   },
   "overrides": {
     "h3": "1.15.5"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "@parcel/watcher",
+      "better-sqlite3",
+      "esbuild",
+      "sharp",
+      "vue-demi"
+    ]
   }
 }
