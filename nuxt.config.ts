@@ -5,13 +5,13 @@ export default defineNuxtConfig({
 
   postcss: {
     plugins: {
-      tailwindcss: {},
+      "@tailwindcss/postcss": {},
       autoprefixer: {},
     },
   },
 
   modules: [
-    "nuxt-icon",
+    "@nuxt/icon",
     "@nuxt/content",
     "@nuxt/image",
     "@nuxt/ui",
@@ -32,6 +32,10 @@ export default defineNuxtConfig({
     "@nuxtjs/seo"
   ],
 
+  future: {
+    compatibilityVersion: 4,
+  },
+
   colorMode: {
     preference: 'light'
   },
@@ -51,12 +55,18 @@ export default defineNuxtConfig({
     enabled: false
   },
 
+  nitro: {
+    prerender: {
+      ignore: ['/__nuxt_content']
+    }
+  },
+
   // nitro: {
   //   prerender: {
   //     routes: ['/'],
   //     crawlLinks: true
   //   },
   // },
-  
+
   compatibilityDate: "2024-08-03",
 });

@@ -39,6 +39,8 @@ defineOgImageComponent('NuxtSeo', {
 </template>
 
 <style>
+@reference "tailwindcss";
+
 /* General Styles */
 .content {
   font-family: "Inter", sans-serif;
