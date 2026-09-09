@@ -16,21 +16,14 @@ export default defineNuxtConfig({
     "@nuxt/image",
     "@nuxt/ui",
     ['nuxt-gtag', { id: process.env.GTAG_ID }],
-    ['nuxt-mail', {
-      message: {
-        to: process.env.MAIL_TO,
-      },
-      smtp: {
-        host: "smtp-relay.brevo.com",
-        port: 587,
-        auth: {
-          user: process.env.BREVO_USER,
-          pass: process.env.BREVO_PASS,
-        },
-      },
-    }],
     "@nuxtjs/seo"
   ],
+
+  runtimeConfig: {
+    brevoApiKey: process.env.BREVO_API_KEY || process.env.BREVO_PASS || '',
+    brevoSenderEmail: process.env.BREVO_USER || 'onyeka.ezenwankwo@gmail.com',
+    mailTo: process.env.MAIL_TO || 'townsmeet@gmail.com',
+  },
 
   future: {
     compatibilityVersion: 4,

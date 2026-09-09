@@ -4,16 +4,16 @@ definePageMeta({
 });
 
 defineOgImageComponent('NuxtSeo', {
-  theme: "#F97316",
+  theme: "#FF8904",
   siteLogo: "/logo.jpg",
 })
 
 useHead({
-  title: "Blog",
+  title: "Insights & Perspectives | Townsmeet",
   meta: [
     {
       name: "description",
-      content: "Learn how digital technology can transform your business.",
+      content: "Insights on technology that empowers people, organisations, businesses, and communities.",
     },
   ],
 });
@@ -24,11 +24,11 @@ const { data: list } = await useAsyncData('blogs', () => {
 </script>
 
 <template>
-  <UContainer>
+  <UContainer class="py-16">
     <LandingSectionhead>
-      <template v-slot:title>Blog</template>
+      <template v-slot:title>Insights & Articles</template>
       <template v-slot:desc
-        >Learn how digital technology can transform your business.</template
+        >Perspectives on practical technology that empowers people, organisations, businesses, and communities.</template
       >
     </LandingSectionhead>
 

@@ -1,1 +1,107 @@
 @import "tailwindcss";
+@import "@nuxt/ui";
+
+@theme {
+  --color-orange-50: oklch(98% 0.016 73.684);
+  --color-orange-100: oklch(95.4% 0.038 75.164);
+  --color-orange-200: oklch(90.1% 0.076 70.697);
+  --color-orange-300: oklch(83.7% 0.128 66.29);
+  --color-orange-400: oklch(75% 0.183 55.934);
+  --color-orange-500: oklch(83.7% 0.128 66.29);
+  --color-orange-600: oklch(75% 0.183 55.934);
+  --color-orange-700: oklch(64.6% 0.222 41.116);
+  --color-orange-800: oklch(55.3% 0.195 38.402);
+  --color-orange-900: oklch(47% 0.157 37.304);
+  --color-orange-950: oklch(26.6% 0.079 36.259);
+}
+
+:root {
+  --ui-primary: oklch(83.7% 0.128 66.29);
+  --ui-color-primary-50: oklch(98% 0.016 73.684);
+  --ui-color-primary-100: oklch(95.4% 0.038 75.164);
+  --ui-color-primary-200: oklch(90.1% 0.076 70.697);
+  --ui-color-primary-300: oklch(83.7% 0.128 66.29);
+  --ui-color-primary-400: oklch(75% 0.183 55.934);
+  --ui-color-primary-500: oklch(83.7% 0.128 66.29);
+  --ui-color-primary-600: oklch(75% 0.183 55.934);
+  --ui-color-primary-700: oklch(64.6% 0.222 41.116);
+  --ui-color-primary-800: oklch(55.3% 0.195 38.402);
+  --ui-color-primary-900: oklch(47% 0.157 37.304);
+  --ui-color-primary-950: oklch(26.6% 0.079 36.259);
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    text-wrap: balance;
+    letter-spacing: -0.025em;
+  }
+
+  p, li {
+    text-wrap: pretty;
+  }
+}
+
+/* Google & Meta-caliber subtle design elements */
+.glass-panel {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(226, 232, 240, 0.8);
+}
+
+.glass-panel-dark {
+  background: rgba(15, 23, 42, 0.85);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.bg-dot-grid {
+  background-image: radial-gradient(rgba(15, 23, 42, 0.08) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+.bg-dot-grid-dark {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.12) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+.glow-orange {
+  position: relative;
+}
+
+.glow-orange::before {
+  content: '';
+  position: absolute;
+  inset: -1px;
+  background-color: oklch(83.7% 0.128 66.29);
+  border-radius: inherit;
+  z-index: -1;
+  filter: blur(12px);
+  opacity: 0.25;
+}
+
+.text-gradient-orange,
+.text-gradient {
+  color: oklch(83.7% 0.128 66.29);
+}
+
+/* Standout Primary Button Styling with Light Orange & Dark Contrast Text */
+.bg-primary,
+[data-slot="base"].bg-primary {
+  background-color: oklch(83.7% 0.128 66.29) !important;
+  color: #0f172a !important; /* Dark slate text for high AAA contrast */
+}
+
+.bg-primary:hover,
+[data-slot="base"].bg-primary:hover {
+  background-color: oklch(78% 0.16 60) !important;
+  color: #0f172a !important;
+}
+
+
+

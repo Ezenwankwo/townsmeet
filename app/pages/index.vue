@@ -4,26 +4,31 @@ definePageMeta({
 });
 
 defineOgImageComponent("NuxtSeo", {
-  theme: "#F97316",
+  theme: "#FFB86A",
   siteLogo: "/logo.jpg",
 });
 
 useHead({
-  title: "Experience the Digital Advantage",
+  title: "Townsmeet | Technology for People, Organisations & Communities",
   meta: [
     {
       name: "description",
       content:
-        `Townsmeet is a digital transformation company. We provide innovative digital solutions to
-        businesses in a variety of industries in Nigeria and across Africa.`,
+        "Townsmeet builds accessible digital solutions, community platforms, and operational systems for people, organisations, businesses, and communities in Nigeria and across Africa.",
     },
   ],
 });
 </script>
 
 <template>
-  <LandingHero />
-  <LandingFeatures />
-  <LandingCta />
-  <LandingLatestBlog />
+  <div class="relative">
+    <!-- Interactive Engineering Hero -->
+    <LandingHero />
+    <LandingStatsBar />
+    <LandingProductsShowcase />
+    <LandingFeatures />
+    <LandingEngineeringMethodology />
+    <LandingCta />
+    <LandingLatestBlog />
+  </div>
 </template>

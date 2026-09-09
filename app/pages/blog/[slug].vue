@@ -4,7 +4,7 @@ definePageMeta({
 });
 
 defineOgImageComponent('NuxtSeo', {
-  theme: "#F97316",
+  theme: "#FFB86A",
   siteLogo: "/logo.jpg",
 })
 </script>
